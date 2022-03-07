@@ -1,0 +1,31 @@
+nav{
+    background: rgba(0, 0, 0, 0.3);
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    left: 50%;
+    position: fixed;
+    transform: translateX(-50%);
+    align-self: center;
+    gap: 0.8rem;
+    bottom: 2rem;
+    display: flex;
+    border-radius: 3rem;
+    backdrop-filter: blur(50px);
+}
+nav a{
+    background: transparent;
+    padding: 0.9rem;
+    display: flex;
+    color: var(--color-white);
+    border-radius: 0.8rem;
+
+    font-size: 1.1rem;
+}
+nav a:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
+nav a.active{
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
